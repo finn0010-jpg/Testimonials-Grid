@@ -86,6 +86,10 @@ img {
     border: 2px solid;
 }
 
+.quote {
+    visibility: hidden;
+}
+
 /* Card One Styles */
 
 .card-one {
@@ -156,8 +160,17 @@ img {
     .card-one {
         grid-column: span 2;
         grid-row: 1;
+        visibility: visible;
+        background-image: url("images/bg-pattern-quotation.svg");
+        background-size: 30%;
+        background-position: top right;
+        background-repeat: no-repeat;
     }
 
+    .quote {
+        background-image: url("images\bg-pattern-quotation.svg");
+        background-size: cover;
+    }
     .card-two {
         grid-column: 3;
         grid-row: 1;
